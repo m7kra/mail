@@ -7,8 +7,8 @@ function App() {
   return (
     <div id='app'>
       <Header
-        logoDark={<img src={logo} height={30}/>}
-        logoLight={<img src={logo} height={30}/>}
+        logoDark={<img src={logo} height={30} alt='logo'/>}
+        logoLight={<img src={logo} height={30} alt='logo'/>}
         title='Portes CE'
         github='https://github.com/m7kra/mail'
         links={[

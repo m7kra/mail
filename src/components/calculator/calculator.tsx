@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import calculatePrice from './utils';
-import { Button } from '@m7kra/react-utils';
 import './calculator.css';
 
 export default function Calculator() {
@@ -19,7 +18,7 @@ export default function Calculator() {
                     id='weight-input'
                     type='number'
                     placeholder='Peso (g)'
-                    value={(weight == 0? '': weight)}
+                    value={(weight === 0? '': weight)}
                     onChange={(e) => saveWeight(Number(e.target.value))}
                 />
             </div>
