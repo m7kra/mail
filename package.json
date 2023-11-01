@@ -2,6 +2,7 @@
   "name": "mail",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://m7kra.github.io/mail",
   "dependencies": {
     "@m7kra/react-utils": "^1.0.28",
     "@testing-library/jest-dom": "^5.17.0",
