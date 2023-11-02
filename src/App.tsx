@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   return (
-    <div id='app'>
+    <div id='app' className='surface'>
       <Header
         logoDark={<img src={logo} height={30} alt='logo'/>}
         logoLight={<img src={logo} height={30} alt='logo'/>}
